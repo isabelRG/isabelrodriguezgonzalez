@@ -35,8 +35,7 @@ public class GreatestNumber{
       JOptionPane.showMessageDialog(null, "The greatest number is " + numberTwo);
     } else if (numberThree > numberOne && numberThree > numberTwo);{
       JOptionPane.showMessageDialog(null, "The greatest number is " + numberThree);
-    }
-      else {
+    } else {
       JOptionPane.showMessageDialog(null, "Enter a correct number");
     }
   }
