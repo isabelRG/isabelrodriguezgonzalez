@@ -7,15 +7,15 @@ This program is to know how much you will pay different amount of pencils
 import javax.swing.JOptionPane;
 public class PaymentForPencils{
   public static void main(String[]args){
-    double a, Costo,Pag;
-    a=Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
-    if ( a > 1000 ){
-      Costo = .85;
-      Pag=(a*.85);
+    int X;
+    double A, Pag;
+    X = Integer.parseInt(JOptionPane.showInputDialog("Enter the number of pencil: "));
+    if ( X >= 1000 ){
+      A = .85;
     }else{
-      Costo = .90;
-      Pag=(a*.90);
-      JOptionPane.showMessageDialog(null,"The bigger number is: "+Pag);
+      A = .90;
+      Pag = X*A;
+      JOptionPane.showMessageDialog(null,"The price for: " + X + "is:" + Pag);
     }
   }
 }
