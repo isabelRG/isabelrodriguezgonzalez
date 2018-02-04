@@ -1,16 +1,25 @@
-/*********************
-Isabel Rodriguez Gonzalez
+/********************************
 BiggerNumber.java
 
-This program is to know which number is higher
-*************************/
-public class BiggerNumber{
-  public static void main(String[]args){
-    Scanner reader= new Scanner(System.in);
-    int 2, 5;
-    System.out.println("Dame el primer numero");
-    iNumeroA=reader.nextInt();
-    System.out.println(iNumeroA + "Es mayor que" + iNumeroB);
-    System.out.println(iNumeroB + "Es mayor que" + iNumeroA);
-  }//end main
-}//end BiggerNumber
+Isabel Rodriguez Gonzalez
+This program finds the greatest of two numbers
+***********************************/
+import javax.swing.JOptionPane;
+public class BiggerNumber
+{
+  public static void main(String[] args)
+  {
+    int a,b,m;
+    a=Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+    b=Integer.parseInt(JOptionPane.showInputDialog("Enter other number: "));
+    if(a>b)
+    {
+      m=a;
+    }
+    else
+    {
+      m=b;
+    }
+    JOptionPane.showMessageDialog(null,"The bigger number is: "+m);
+  }
+}
