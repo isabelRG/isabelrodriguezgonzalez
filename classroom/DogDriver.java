@@ -28,6 +28,6 @@ public class DogDriver{
 
     JOptionPane.showMessageDialog(null, "fufi´s eyes color is" + fufi.getEyeColor());
 
-    fufi.sleep(;)
+    fufi.sleep();
   }
 }

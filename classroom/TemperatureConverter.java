@@ -1,6 +1,6 @@
 /************************************************
-Isabel Rodriguez Gonzalez
 TemperatureConverter.java
+Isabel Rodriguez Gonzalez
 
 This program converts from Fahrenheit to Celcius
 *************************************************/

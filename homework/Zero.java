@@ -20,7 +20,7 @@ public class Zero
     {
       CA=Integer.parseInt(JOptionPane.showInputDialog("Enter a quntity"));
       C ++;
-      if (CA=0)
+      if (CA==0)
       {
         CC ++;
       }else{

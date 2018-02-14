@@ -39,3 +39,29 @@ public class TelephoneCompany
             in=1;
             pag=in*ti;
             imp=inn*pag;
+            tot=pag+imp;
+          }
+          else if(ti<=8)
+          {
+            in=0.80;
+            pag=5+(ti-5)*in;
+            imp=inn*pag;
+            tot=pag+imp;
+          }
+          else if(ti<=10)
+          {
+            in=0.70;
+            pag=7.4+(ti-8)*in;
+            imp=inn*pag;
+            tot=pag+imp;
+          }
+          else if(ti>10)
+          {
+            in=0.50;
+            pag=8.8+(ti-5)*in;
+            imp=inn*pag;
+            tot=pag+imp;
+          }
+          JOptionPane.showMessageDialog(null,"The total payment:$ "+tot);
+  }
+}

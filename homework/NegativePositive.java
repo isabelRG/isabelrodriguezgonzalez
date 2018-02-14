@@ -1,5 +1,6 @@
 /*******************************
 NegativePositive.java
+
 Isabel Rodriguez Gonzalez
 This program prints if a number is posive or negative
 *******************************/

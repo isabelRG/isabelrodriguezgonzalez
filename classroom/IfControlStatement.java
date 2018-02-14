@@ -1,9 +1,9 @@
-/**************************
+/*********************
 IfControlStatement.java
 
 Isabel Rodriguez Gonzalez
 This program checks for period at the end of line.
-********************************/
+*************************/
 import javax.swing.JOptionPane;
 public class IfControlStatement{
   public static void main(String[] args){

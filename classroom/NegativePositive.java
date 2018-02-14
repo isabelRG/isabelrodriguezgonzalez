@@ -1,5 +1,6 @@
 /*******************************
 NegativePositive.java
+
 Isabel Rodriguez Gonzalez
 This program prints if a number is posive or negative
 *******************************/
@@ -12,7 +13,7 @@ public class NegativePositive{
   number = Double.parseDouble(JOptionPane.showInputDialog("Enter a number"));
 
   if (number > 0){
-    JOptionPane.showMessageDialog(null, "Your number is POSITIVE");
+    JOptionPane.showMessage(null, "Your number is POSITIVE");
   }else {
     JOptionPane.showMessageDialog(null, "your number is NEGATIVE");
   }

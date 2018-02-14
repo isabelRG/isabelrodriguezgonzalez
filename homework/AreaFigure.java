@@ -1,6 +1,6 @@
 /*******************
-Isabel Rodriguez Gonzalez
 AreaFigure.java
+Isabel Rodriguez Gonzalez
 
 This program is to take out the area of a figure
 *****************/
