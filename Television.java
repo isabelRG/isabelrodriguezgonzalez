@@ -1,13 +1,13 @@
 public class Television extends Electrodomestico{
     private int resolucion;
     private boolean sintonizadorTDT;
-    private final static int RESOLUCION_DEF=20;
+    private final static int resolucion_default=20;
 
     public Television(){
-       this(PRECIO_BASE_DEF, PESO_DEF, CONSUMO_ENERGETICO_DEF, COLOR_DEF, RESOLUCION_DEF, false);
+       this(precio_base_default, peso_default, consumo_energetico_default, color_default, resolucion_default, false);
    }
    public Television(double precioBase, double peso){
-        this(precioBase, peso, CONSUMO_ENERGETICO_DEF, COLOR_DEF, RESOLUCION_DEF, false);
+        this(precioBase, peso, consumo_energetico_default, color_default, resolucion_default, false);
     }
     public Television(double precioBase, double peso, char consumoEnergetico, String color, int resolucion, boolean sintonizadorTDT){
        super(precioBase, peso, consumoEnergetico, color);

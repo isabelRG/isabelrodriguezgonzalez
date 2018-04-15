@@ -18,14 +18,14 @@ public class Electrodomestico {
         if(encontrado){
             this.color=color;
         }else{
-            this.color=COLOR_DEF;
+            this.color=color_default;
         }
     }
     public void comprobarConsumoEnergetico(char consumoEnergetico){
         if(consumoEnergetico>=65 && consumoEnergetico<=70){
             this.consumoEnergetico=consumoEnergetico;
         }else{
-            this.consumoEnergetico=CONSUMO_ENERGETICO_DEF;
+            this.consumoEnergetico=consumo_energetico_default;
         }
     }
     public double getPrecioBase() {
