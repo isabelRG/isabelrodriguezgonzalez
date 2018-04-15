@@ -1,8 +1,8 @@
 public class Electrodomestico {
-    protected final static String COLOR_DEF="blanco";
-    protected final static char CONSUMO_ENERGETICO_DEF='F';
-    protected final static double PRECIO_BASE_DEF=100;
-    protected final static double PESO_DEF=5;
+    protected final static String color_default="blanco";
+    protected final static char consumo_energetico_default='F';
+    protected final static double precio_base_default=100;
+    protected final static double peso_default=5;
     protected double precioBase;
     protected String color;
     protected char consumoEnergetico;
@@ -74,10 +74,10 @@ public class Electrodomestico {
         return precioBase+plus;
     }
     public Electrodomestico(){
-        this(PRECIO_BASE_DEF, PESO_DEF, CONSUMO_ENERGETICO_DEF, COLOR_DEF);
+        this(precio_base_default, peso_default, consumo_energetico_default, color_default);
     }
     public Electrodomestico(double precioBase, double peso){
-        this(precioBase, peso, CONSUMO_ENERGETICO_DEF, COLOR_DEF);
+        this(precioBase, peso, consumo_energetico_default, color_default);
     }
     public Electrodomestico(double precioBase, double peso, char consumoEnergetico, String color){
         this.precioBase=precioBase;
