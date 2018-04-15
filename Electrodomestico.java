@@ -1,4 +1,3 @@
-import java.util.*;
 public class Electrodomestico {
     protected final static String COLOR_DEF="blanco";
     protected final static char CONSUMO_ENERGETICO_DEF='F';
